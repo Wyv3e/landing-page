@@ -64,7 +64,7 @@ header{
     justify-content: space-around;
     padding-right: 50px;
     max-width: 700px;
-    min-width: 300px;
+    min-width: 350px;
     max-height: auto;
     color: #E5E7EB;
 }
@@ -121,7 +121,15 @@ h2{
 
 
 .quote{
+    height: 320px;
     background-color: #E5E7EB;
+}
+
+
+/* CALL */
+
+.call{
+    height: 200px;
 }
 
 
@@ -129,6 +137,8 @@ h2{
 
 
 footer{
+    height: 40px;
     background-color: #1F2937;
+    text-align: center;
     color: #E5E7EB;
 }
