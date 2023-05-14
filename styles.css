@@ -31,6 +31,10 @@ header{
     height: 40px;
 }
 
+.navbar-link{
+    padding: 0 5px;
+}
+
 
 /* MAIN */
 
