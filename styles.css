@@ -11,6 +11,7 @@ body{
 
 
 header{
+    height: 80px;
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
@@ -22,45 +23,59 @@ header{
 }
 
 
+
 .main-section{
-    min-height: 500px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     background-color: #1F2937;
 }
 
 .main-text{
-    height: 320px;
-    max-width: 400px;
     flex: 1 0 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 250px;
+    max-width: 700px;
+    min-width: 300px;
     color: #E5E7EB;
-    margin-right: 3em;
+}
+
+.main-image{
+    display: flex;
 }
 
 .main-image img{
-    height: 320px;
-    flex: 1 0 0;
+    height: auto;
+    width: 100%;
 }
 
-/* img{
-    height: 350px;
-} */
+figure{
+    max-width: 800px;
+}
 
 
+
+h2{
+    text-align: center;
+    margin: 1em auto;
+}
+
+.items{
+    height: 320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
 .item{
-    /* to help me visualize the boxes */
-    width: 100px;
-    height: 100px;
+    flex: 0 0 150px;
+    /* width: 100px; */
+    height: 150px;
     border: 5px solid #254de4;
     border-radius: 10px;
-    margin: 10px;
+    margin: 25px;
 }
 
 .quote{
@@ -69,4 +84,5 @@ header{
 
 footer{
     background-color: #1F2937;
+    color: #E5E7EB;
 }
