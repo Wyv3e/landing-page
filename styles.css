@@ -100,7 +100,7 @@ h2{
 }
 
 .items{
-    height: 320px;
+    min-height: 320px;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
