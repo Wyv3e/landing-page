@@ -8,6 +8,8 @@ body{
     font-family: sans-serif;
 }
 
+
+
 header{
     display: flex;
     justify-content: space-between;
@@ -19,24 +21,38 @@ header{
     color: #E5E7EB;
 }
 
+
 .main-section{
+    min-height: 500px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     background-color: #1F2937;
 }
 
 .main-text{
+    height: 320px;
+    max-width: 400px;
+    flex: 1 0 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 250px;
     color: #E5E7EB;
+    margin-right: 3em;
 }
 
-img{
-    width: 600px;
+.main-image img{
+    height: 320px;
+    flex: 1 0 0;
 }
+
+/* img{
+    height: 350px;
+} */
+
+
 
 .item{
     /* to help me visualize the boxes */
