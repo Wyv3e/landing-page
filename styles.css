@@ -15,10 +15,18 @@ header{
     color: #E5E7EB;
 }
 
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+}
+
 .main-text{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 250px;
     color: #E5E7EB;
 }
 
@@ -26,13 +34,8 @@ header{
     color: #E5E7EB;
 }
 
-.main-section{
-    display: flex;
-    background-color: #1F2937;
-}
-
 img{
-    width: 700px;
+    width: 600px;
 }
 
 .item{
