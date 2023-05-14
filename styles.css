@@ -20,6 +20,7 @@ header{
 }
 
 .main-section{
+    display: flex;
     background-color: #1F2937;
 }
 
