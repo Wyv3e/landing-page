@@ -12,6 +12,11 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.navbar-link{
+    color: #E5E7EB;
 }
 
 .main-section{
