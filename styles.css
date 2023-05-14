@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-item{
+    width: 350px;
+    height: 150px;
+    background-color: lightgrey;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    border: 5px solid #254de4;
+    border-radius: 10px;
+    margin: 10px;
+}
