@@ -15,6 +15,13 @@ header{
     color: #E5E7EB;
 }
 
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #E5E7EB;
+}
+
 .navbar-link{
     color: #E5E7EB;
 }
