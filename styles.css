@@ -14,13 +14,15 @@ a{
 }
 
 
+/* HEADER */
 
 
 header{
     height: 80px;
     display: flex;
-    justify-content: space-around;
-    padding-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 100px;
     background-color: #1F2937;
     color: #E5E7EB;
 }
@@ -28,6 +30,9 @@ header{
 .logo{
     height: 40px;
 }
+
+
+/* MAIN */
 
 
 .main-section{
@@ -52,13 +57,11 @@ header{
 .main-image{
     display: flex;
     flex: 1 0 0;
-    /* flex-wrap: wrap; */
     align-items: center;
     min-width: auto;
 }
 
 .main-image img{
-    /* flex-wrap: wrap; */
     height: auto;
     width: 100%;
     border-radius: 70px;
@@ -70,12 +73,11 @@ h1{
 }
 
 figure{
-    /* flex-wrap: wrap; */
     max-width: 700px;
     min-width: 300px;
 }
 
-
+/* INFORMATION */
 
 h2{
     text-align: center;
@@ -99,9 +101,17 @@ h2{
     margin: 25px;
 }
 
+
+/* QUOTE */
+
+
 .quote{
     background-color: #E5E7EB;
 }
+
+
+/* FOOTER */
+
 
 footer{
     background-color: #1F2937;
