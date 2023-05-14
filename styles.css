@@ -14,7 +14,9 @@ a{
 }
 
 button{
-    width: 200px;
+    width: 250px;
+    min-width: 200px;
+    height: 50px;
     color: #E5E7EB;
     background-color: #2588e4;
     padding: 1em 3em;
@@ -113,7 +115,7 @@ h2{
     flex: 0 0 150px;
     /* width: 100px; */
     height: 150px;
-    border: 5px solid #254de4;
+    border: 5px solid #2588e4;
     border-radius: 10px;
     margin: 25px;
 }
@@ -140,7 +142,7 @@ h2{
 }
 
 .quote p{
-    align-self: end;
+    align-self: flex-end;
 }
 
 
@@ -148,16 +150,30 @@ h2{
 /* CALL */
 
 .call{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2588e4;
+    color: #E5E7EB;
+    border-radius: 15px;
+    padding: 0 30px;
     height: 200px;
+    margin: 30px 100px;
 }
 
+.call-button{
+    border: 3px solid #E5E7EB;
+}
 
 /* FOOTER */
 
 
 footer{
+    display: flex;
     height: 40px;
     background-color: #1F2937;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     color: #E5E7EB;
 }
