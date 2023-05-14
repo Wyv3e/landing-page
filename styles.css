@@ -24,11 +24,8 @@ header{
     background-color: #1F2937;
 }
 
-.main-item{
-    /* to help me visualize the box */
-    width: 350px;
-    height: 150px;
-    background-color: lightgrey;
+img{
+    width: 700px;
 }
 
 .item{
