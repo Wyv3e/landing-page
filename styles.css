@@ -13,6 +13,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    color: #2588e4;
+}
+
 button{
     width: 250px;
     min-width: 200px;
@@ -22,6 +26,7 @@ button{
     padding: 1em 3em;
     border: none;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 
@@ -56,14 +61,14 @@ header{
     flex-wrap: wrap;
     background-color: #1F2937;
     min-height: 500px;
-    padding: 0 100px 15px 100px;
+    padding: 0 100px 0px 100px;
 }
 
 .main-text{
     flex: 1 0 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-right: 50px;
     max-width: 700px;
     min-width: 350px;
@@ -81,7 +86,7 @@ header{
 .main-image img{
     height: auto;
     width: 100%;
-    border-radius: 70px;
+    border-radius: 20px;
 }
 
 h1{
@@ -92,6 +97,10 @@ h1{
 figure{
     max-width: 700px;
     min-width: 300px;
+}
+
+.main-button{
+    /* justify-self: center; */
 }
 
 
@@ -143,7 +152,11 @@ h2{
 
 .quote p{
     align-self: flex-end;
+    font-weight: bolder;
+    margin-top: 30px;
 }
+
+
 
 
 
