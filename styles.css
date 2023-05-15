@@ -70,11 +70,15 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-right: 50px;
+    padding: 0 50px 10px 0;   
     max-width: 700px;
     min-width: 350px;
     max-height: auto;
     color: #E5E7EB;
+}
+
+.main-text p{
+    margin-bottom: 20px;
 }
 
 .main-image{
@@ -110,14 +114,15 @@ figure{
 
 h2{
     text-align: center;
-    margin: 1em auto;
+    padding: 40px;
+    /* margin: 1em auto; */
 }
 
 .items{
     min-height: 320px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -128,7 +133,7 @@ h2{
     height: 150px;
     border: 5px solid #2588e4;
     border-radius: 10px;
-    margin: 25px;
+    margin: 0 25px 25px 25px;
 }
 
 .item img{
